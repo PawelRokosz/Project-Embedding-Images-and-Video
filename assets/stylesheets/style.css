@@ -169,16 +169,47 @@ header{
   height: 27px;
 }
 
+.search{
+  float: left;
+  margin-top: 7px;
+  height: 27px;
+  width: 650px;
+}
+
+.search-box{
+  width: 550px;
+  height: 22px;
+  font-size: 15px;
+  border-radius: 2px;
+  border-color: #d3d3d3;
+  box-shadow: 0;
+}
+
+.search button{
+  height: 27px;
+  width: 69.5px;
+}
+
+.search .keyboard{
+  position: absolute;
+  left: 727px;
+  top: 21px;
+  opacity: 0;
+}
+
+.search .keyboard:hover{
+  opacity: 1;
+}
+
 /*
 =======================================================
 Hero
 =======================================================
 */
 
-.hero{
-  max-width: 1000px;
-  text-align: center;
+.video-box{
+  width: 640px;
+  height: 360px;
   padding-top: 55px;
-  height: 10px;
   background: red;
 }
