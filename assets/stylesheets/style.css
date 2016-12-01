@@ -207,9 +207,73 @@ Hero
 =======================================================
 */
 
+.video-hero{
+  width: 640px;
+  height: 365px;
+  padding-top: 60px;
+  background: #f1f1f1;
+  padding-left: 226px;
+}
+
 .video-box{
   width: 640px;
   height: 360px;
-  padding-top: 55px;
+  margin-top: 5px;
+}
+
+.description{
+  width: 610px;
+  height: 130px;
+  margin-top: 10px;
+  background: white;
+  margin-left: 226px;
+  padding: 15px 15px 5px 15px;
+}
+
+.description h1{
+  font-size: 20px;
+  word-wrap: break-word;
+  width: 400px;
+}
+
+.description img{
+  width: 48px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.title{
+  position: absolute;
   background: red;
+  height: 20px;
+  width: 100px;
+  left: 300px;
+  top: 500px;
+}
+
+.button1{
+  position: absolute;
+  background: red;
+  height: 20px;
+  width: 100px;
+  left: 300px;
+  top: 528px;
+}
+
+.button2{
+  position: absolute;
+  background: green;
+  height: 20px;
+  width: 20px;
+  left: 400px;
+  top: 528px;
+}
+
+.button3{
+  position: absolute;
+  background: yellow;
+  height: 20px;
+  width: 40px;
+  left: 420px;
+  top: 528px;
 }
