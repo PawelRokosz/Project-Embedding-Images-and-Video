@@ -431,7 +431,7 @@ Hero
 
 aside{
   width: 369px;
-  height: 1450px;
+  height: 1460px;
   margin-top: 65px;
   margin-left: 0;
   background: white;
@@ -440,6 +440,103 @@ aside{
   position: absolute;
   top: 0;
 }
+
+aside img.main{
+  width: 186px;
+  height: 98px;
+}
+
+aside .top{
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 1000;
+}
+
+aside .top.big{
+  font-size: 14px;
+}
+
+aside .top.small{
+  font-size: 14px;
+  color: #666;
+  padding-left: 120px;
+  padding-right: 10px;
+}
+
+aside .pad{
+  padding-right: 5px;
+}
+
+aside .more-vid{
+  position: relative;
+  margin-top: 15px;
+}
+
+aside .more-vid .title-txt{
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+
+aside .more-vid .tiny{
+  position: absolute;
+  top: 40px;
+  left: 180px;
+  font-size: 10px;
+  color: #666;
+}
+
+aside .more-vid .tinier{
+  position: absolute;
+  top: 55px;
+  left: 180px;
+  font-size: 10px;
+  color: #666;
+}
+
+aside .last{
+  border-bottom: 1px solid #ddd;
+}
+
+aside .title{
+  position: relative;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+aside .title .title-txt{
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+
+aside .title .tiny{
+  position: absolute;
+  top: 40px;
+  left: 180px;
+  font-size: 10px;
+  color: #666;
+}
+
+aside .title .tinier{
+  position: absolute;
+  top: 55px;
+  left: 180px;
+  font-size: 10px;
+  color: #666;
+}
+
+aside .pokaz{
+  padding-top: 8px;
+  text-align: center;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+aside .pokaz:hover{
+  opacity: 1;
+}
+
 
 .comments .top{
   position: relative;
@@ -567,4 +664,90 @@ aside{
 
 .show-more:hover{
   background: #f1f1f1;
+}
+
+footer{
+  width: 1460px;
+  height: 125px;
+  margin-top: 88px;
+  background: white;
+  padding: 15px 30px 5px 30px;
+  display: inline-block;
+}
+
+footer .top{
+  position: relative;
+  height: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+footer .top a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  background: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  border-radius: 1px;
+  font-size: 12px;
+}
+
+footer .top a:hover{
+  background: #c6c6c6;
+}
+
+footer .top .a{
+  position: absolute;
+  left: 90px;
+  top: 4px;
+}
+
+footer .top .b{
+  position: absolute;
+  left: 195px;
+  top: 4px;
+}
+
+footer .top .c{
+  position: absolute;
+  left: 310px;
+  top: 4px;
+}
+
+footer .top .d{
+  position: absolute;
+  left: 560px;
+  top: 4px;
+}
+
+footer .top .e{
+  position: absolute;
+  left: 640px;
+  top: 4px;
+}
+
+footer .bottom{
+  margin-top: 12px;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+footer a.up{
+  font-size: 13px;
+  font-weight: 1000;
+  padding-right: 15px;
+}
+
+footer a.down{
+  font-size: 10px;
+  padding-right: 15px;
+  color: #666;
+}
+
+footer .hov:hover{
+  color: #167ac6;
+  text-decoration: underline;
 }
